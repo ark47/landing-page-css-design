@@ -63,14 +63,23 @@ section.banner .content a:hover {
 
 .post .btn {
     position: absolute;
-    border: 2px solid #262626;
-    color: #262626;
-    background: #ff0;
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgba(0,0,0,.8);
     padding: 10px 40px;
     font-size: 24px;
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+
+.post .btn:hover {
+    background: #ff0;
+    border: 2px solid #ff0;
+    color: #262626;
+
 }
 
 .post .btn.prev {
@@ -85,7 +94,7 @@ section.banner .content a:hover {
 
 .post-title {
     position: absolute;
-    background: rgba(0,0,0,.9);
+    background: rgba(0,0,0,.8);
     color: #fff;
     bottom: 20px;
     left: 20px;
@@ -99,12 +108,12 @@ section.banner .content a:hover {
 
 .post-date {
     position: absolute;
-    border: 2px solid #262626;
+    border: 2px solid #fff;
     top: -50px;
     right: 50px;
-    background: #ff0;
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    color: #262626;
+    color: #fff;
 }
 
 .post-date span {
@@ -125,4 +134,5 @@ section.banner .content a:hover {
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
+    letter-spacing: 1px;
 }
